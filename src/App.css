@@ -101,11 +101,17 @@ button {
 
 .top-image-container {
   margin-right: 15px;
+  height: 170px;
+}
+
+.top-image-container > img {
+  height: inherit;
 }
 
 .post-number {
   color: var(--grayish-blue);
   font-size: 2rem;
+  margin-top: 0;
 }
 
 .post-title {
