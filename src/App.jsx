@@ -10,8 +10,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <MainNews />
-      <NewArticles />
+      <div className='news-articles-container'>
+        <MainNews />
+        <NewArticles />
+      </div>
       <TopPosts />
       <TopPosts />
       <TopPosts />
