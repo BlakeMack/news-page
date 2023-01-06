@@ -1,11 +1,14 @@
-export default function TopPosts () {
+export default function TopPosts (props) {
   return (
-    <div>
-      {/* props image */}
-      <img src="src/assets/images/image-retro-pcs.jpg" alt="" />
-      <h2>props number</h2>
-      <h2>props title</h2>
-      <p>props paragraph</p>
+    <div className="top-posts">
+      <div className="top-image-container">
+        <img src={`src/assets/images/${props.image}.jpg`} alt="" />
+      </div>
+      <div className="top-posts-text">
+        <h2 className="post-number">{props.number}</h2>
+        <h2 className="post-title">{props.title}</h2>
+        <p className="post-paragraph">{props.paragraph}</p>
+      </div>
     </div>
   )
 }
