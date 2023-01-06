@@ -14,9 +14,11 @@ function App() {
         <MainNews />
         <NewArticles />
       </div>
-      <TopPosts />
-      <TopPosts />
-      <TopPosts />
+      <div className='all-top-posts-container'>
+        <TopPosts number={"01"} title={"Reviving Retro PCs"} paragraph={"what happens when old PCs are given modern upgrades?"} image={"image-retro-pcs"}/>
+        <TopPosts number={"02"} title={"Top 10 Laptops of 2022"} paragraph={"Our best picks for various needs and budgets."} image={"image-top-laptops"}/>
+        <TopPosts number={"03"} title={"The Growth of Gaming"} paragraph={"How the pandemic has sparked fresh opportunities."} image={"image-gaming-growth"}/>
+      </div>
     </>
   )
 }
