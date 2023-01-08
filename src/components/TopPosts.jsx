@@ -1,3 +1,5 @@
+import UseHover from "../hooks/useHover"
+
 export default function TopPosts (props) {
   return (
     <div className="top-posts">
