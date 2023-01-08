@@ -2,7 +2,7 @@ export default function TopPosts (props) {
   return (
     <div className="top-posts">
       <div className="top-image-container">
-        <img src={`src/assets/images/${props.image}.jpg`} alt="" />
+        <img src={`/images/${props.image}.jpg`} alt="" />
       </div>
       <div className="top-posts-text">
         <h2 className="post-number">{props.number}</h2>
